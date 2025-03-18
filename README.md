@@ -80,7 +80,7 @@ Run the `benchmark.ipynb` notebook to perform the benchmark on the STM32 Cloud.
 The latency LUT will be saved in the `./.lut/` directory.
 
 ```bash
-python build_latency_table.py --model-class mcunet --input-shape 224 224
+python build_latency_table.py --model-class mobilenetv2 --input-shape 160 160
 ```
 
 ---
