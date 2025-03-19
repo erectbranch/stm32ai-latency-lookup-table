@@ -4,6 +4,8 @@ This repository performs inference of deep learning models on STMicroelectronics
 
 With the code in this repository, you can create a **latency look-up table** used in [Once for All: Train One Network and Specialize it for Efficient Deployment (ICLR 2020)](https://github.com/mit-han-lab/once-for-all).
 
+<img src="main.png" alt="main" width="100%"/>
+
 ---
 
 ## 1. Structure
@@ -97,6 +99,6 @@ The portions of the project are available under separate license terms.
 
 ## 5. Contributing
 
-Welcome any contributions to our project! Please submit a pull request or open an issue.
+Welcome any contributions to the project! Please submit a pull request or open an issue.
 
 ---
