@@ -19,7 +19,7 @@ def get_opcode(layer_infos: List[str]) -> Dict[str, List[str]]:
     block_idx = 0
 
     for layer_info in layer_infos:
-        layer_type = layer_info.split("-")[0]       # "Conv", "block0", "expanded_conv-idskip:0-se:0", ...
+        layer_type = layer_info.split("-")[0]       # "Conv", "block0", "expanded_conv-idskip:0", ...
 
         if "expanded_conv" in layer_type:
             if block_idx == 0:    # block0
